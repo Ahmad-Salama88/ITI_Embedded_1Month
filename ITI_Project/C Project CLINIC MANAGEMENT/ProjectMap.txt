@@ -1,0 +1,53 @@
+
+-> patient struct (using typedef).
+-> array of this struct.
+-> the struct-return-type functions use >> pointer to struct array
+-> incremented variable to index the avilable slots 
+-> macro for the total slots number
+
+					
+					ADMIN_MODE 
+					__________
+- First, a function for passsword using for-loop. 
+
+- (option 1) a patient struct and make array[?] of it, 
+	then, a function_1 that asks about the basic info
+			(has a parameter which is an incremented index) 
+			(and don't complete to ask else if the ID isn't repeated) 
+	so, a funtion to check if the ID is repeated
+	
+- (option 2) the same function of ID check,
+ or function that calls it, أو العكس 
+	then, to edit the patient info : use function_1
+ 
+- (option 3) a function to display the available slots (<=5)
+	before that, an array for the slots
+	then, a function to reserve the slots
+	
+- (option 4) a function to cancel the reservation 
+	but check if the ID exists, first.
+	
+						
+					PATIENT_MODE 
+					____________
+- (option 1) a function to display the patient info 
+				(inptu = ID, output = patient struct) 
+
+- (option 2) a function to display all the reservations,
+				each attached with its ID.
+	
+	
+_____________________________________________
+
+كنت عاوز افصل جزء ال
+checkslot : available or not 
+الموجود في 
+disp_slots_available
+افصله في فانكشن لوحده
+
+عشان هستخدمه تحت في ال 
+reserve_patinet
+عشان لو الادمن دخل ميعاد متسجل اصلا
+(( ومتنساش ان المواعيد الادمن بيحطها بدماغه عشان الالجوريزم غريب فمينفعش الا كدا تقريبا ))
+
+وتوكل على الله وحده.

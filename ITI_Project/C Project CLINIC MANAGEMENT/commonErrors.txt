@@ -1,0 +1,21 @@
+- forget "break;" in switch_case
+- when use some var name >>> copy it, not to write it. 
+- gets & fflush(stdin)
+- forget : \n >>> printf("\n");
+- لازم تسجل الملاحظات اول لما تقرا المشروع، وتقول هعمل واسوي وتكتب الاسئلة والحاجات اللي مش عارفها
+		 وعشان بتنسى ولا شك.
+		 
+		 printf("Enter an available slot: "); 
+		scanf("%i", &slot_entered);
+		check_slot_available(sl)
+		printf("The slot is reseved for the patient successfully.\n");
+		
+scanf : DON'T FORGET &&&&&&&&&&&&&&&&&&&
+مشكلة الحوار دا انك بتتجنن فين الايرور والكومبيلر نايم 
+
+
+scanf : ("%i", u8) دي غلط لازم تبقا شورت او انتيجر
+
+u8 x = -1   ---->    x =255		اعملها s8
+
+check the limit before usage (u16 => 32,000 only) 
